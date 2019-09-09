@@ -45,3 +45,4 @@ str(fish)
 #The first four data types are fairly self explanatory. POSIXct is a numeric vector specifically used for timestamps.
 area <- as.character(fish$area_fac)
 class(area)
+fish$avg.DNE.m <- NULL
